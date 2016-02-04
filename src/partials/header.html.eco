@@ -25,6 +25,7 @@
       </div>
     <% end %>
   </div>
+  <span id="header-picture"><a href="https://www.flickr.com/photos/davelonsdale/6311696223/">Foto por Dave Lonsdale</a></span>
 </header>
 <!--  / HEADER -->
 
