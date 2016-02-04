@@ -1,6 +1,13 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<p>
+Quieres hablar acerca de Python? Envie una propuesta de charla! (link en
+pronto)
+</p>
+<p>
+Seleccionamos las mejores charlas y pronto se puede ver la grade.
+</p>
+
+<!--
 <div class="schedule-tbl">
   <table>
     <thead>
@@ -39,3 +46,4 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     </tbody>
   </table>
 </div>
+-->
