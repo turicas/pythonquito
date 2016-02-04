@@ -9,7 +9,7 @@ module.exports = {
     conf: {
       name: "PythonQuito",
       description: "La Primera Semana Pythonica de Quito",
-      date: "3, 4 y 5 de Marzo",
+      date: "5, 6, 10 y 11 de Marzo",
       // If your event is free, just comment this line
       price: "$5-15",
       venue: "ThoughtWorks",
