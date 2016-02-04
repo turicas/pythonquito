@@ -19,8 +19,8 @@
   <meta property="og:image" content="<%= @getUrl() %>/<%= @getTheme() %>/img/badge.jpg">
   <!-- / FACEBOOK -->
 
-  <link rel="shortcut icon" href="<%= @getTheme() %>/img/favicon.ico" type="image/x-icon">
-  <link rel="apple-touch-icon" href="<%= @getTheme() %>/img/apple-touch-icon.png">
+  <link rel="shortcut icon" href="https://www.python.org/static/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="https://www.python.org/static/apple-touch-icon-144x144-precomposed.png">
 
   <!-- STYLES -->
   <link rel="stylesheet" type="text/css" href="<%= @getTheme() %>/css/main.css">
