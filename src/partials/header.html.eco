@@ -11,16 +11,19 @@
       <a class="logo-link" href="#" title="<%= @conf.name %>"
       itemprop="name"><img src="<%= @getTheme() %>/img/pythonquito.png" alt="<%= @conf.name %> logo"></a>
     </h1>
-    <h2 class="tagline"><%= @conf.date %>, <%= @conf.venue %>, <%= @conf.city %></h2>
+    <h2 class="tagline"><%= @conf.date %>, <%= @conf.city %></h2>
 
     <% if @conf.price || @callToAction: %>
       <div class="call-action-area">
         <% if @conf.price: %>
-          <span class="price">Sólo <%= @conf.price %></span>
+          <div class="price"><%= @conf.price %></div>
         <% end %>
 
         <% if @callToAction: %>
-          <a href="<%= @callToAction.link %>" class="call-action-link" title="<%= @callToAction.text %>"><%= @callToAction.text %></a>
+          <div class="call-action">
+            <a href="<%= @callToAction.link %>" class="call-action-link"
+               title="<%= @callToAction.text %>"><%= @callToAction.text %></a>
+          </div>
         <% end %>
       </div>
     <% end %>
