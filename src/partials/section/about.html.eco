@@ -1,7 +1,10 @@
 <h2 class="section-title"><%= @labels['about'] %></h2>
-<p itemprop="description">
-  Días 5 y 6 (sábado y domingo):
-  <a href="https://djangogirls.org/">DjangoGirls</a>.
-  <br>
-  Días 10 y 11 (jueves y viernes): charlas.
+
+<p>
+Nosotros queremos unir la comunidad Python local y enseñas nuevas personas a
+iniciar en la arte de programar!
+</p>
+<p>
+El evento está dividido en dos partes: un con foco en enseñar programación a
+mujeres (el DjangoGirls) y otro a el público en general (las charlas).
 </p>

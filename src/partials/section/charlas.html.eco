@@ -1,0 +1,28 @@
+<h2 class="section-title"><%= @labels['charlas'] %></h2>
+
+<p itemprop="description">
+  Charlas en general sobre el lenguaje Python con programadores expertos.
+
+  <ul>
+    <li>
+      Fechas: 9 y 10 de Marzo de 2016 (miércoles y jueves de 18:30 a 22:00)
+    </li>
+    <li>
+      Dirección: a definir (en Quito, problamente en La Carolina).
+    </li>
+    <li>
+      Costo: 10 USD (gana una camiseta de la conferencia!)
+    </li>
+    <li>
+      Inscripción: hasta 1 de Marzo por
+      <a href="<%= @callToAction.link %>">EventBrite</a> (si no puede cancelar
+      este costo y no quiere una camiseta, contactenos)
+    </li>
+    <li>
+      Propuestas de charlas: si les gustaría hacer una charla en el evento,
+      <a href="<%= @propuestasForm %>">envía su propuesta</a> ahora mismo! El
+      formulario se quedará abierto hasta 21 de Febrero (la decisión de las
+      charlas seleccionadas en 23 de Febrero).
+  </ul>
+</p>
+

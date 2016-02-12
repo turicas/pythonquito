@@ -9,10 +9,10 @@ module.exports = {
     conf: {
       name: "PythonQuito",
       description: "La Primera Semana Pythonica de Quito",
-      date: "5, 6, 10 y 11 de Marzo",
+      date: "4-5 y 9-10 de Marzo de 2016",
       // If your event is free, just comment this line
-      price: "$5-15",
-      venue: "ThoughtWorks",
+      price: "$0 (DjangoGirls), $10 (Charlas + camiseta)",
+      venue: "",
       address: "Edificio Brescia. Piso 9, Av República de El Salvador Avenida República del Salvador N34-107 and Suiza, Quito 170135",
       city: "Quito",
       state: "Pichincha, Ecuador"
@@ -22,8 +22,10 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Regístrese ahora!",
-        link: "#"
+        link: ""
     },
+
+    propuestasForm: "https://docs.google.com/forms/d/1LNArwMR0FMjaw0cHsutXpykuGtn5h2H49xJsNGJL7bE/viewform",
 
     // Site info
     site: {
@@ -37,9 +39,11 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
+      'djangogirls',
+      'charlas',
       'location',
       //'speakers',
-      'schedule',
+      //'schedule',
       //'sponsors',
       'organizers'
       // 'contact'
@@ -48,6 +52,8 @@ module.exports = {
     // Labels which you can translate to other languages
     labels: {
       about: "Acerca",
+      djangogirls: "DjangoGirls",
+      charlas: "Charlas Pythónicas",
       location: "Localización",
       speakers: "Hablantes",
       schedule: "Charlas",

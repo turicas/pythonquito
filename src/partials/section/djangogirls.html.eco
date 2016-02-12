@@ -1,0 +1,21 @@
+<h2 class="section-title"><%= @labels['djangogirls'] %></h2>
+
+<p itemprop="description">
+  Introducción a programación para chicas, con Python y Django! Si ya tiene
+  experiencia con Python y Django, inscrevate cómo un <i>couch</i>!
+  <ul>
+    <li>
+      Fechas: 4 y 5 de Marzo de 2016 (viernes: 18:30-20:00, sábado: 09:00-18:30)
+    </li>
+    <li>
+      Dirección: Oficia de ThoughtWorks (TODO: link)
+    </li>
+    <li>
+      Costo: <b>gratuito!</b>
+    </li>
+    <li>
+      Inscripción: hasta 1 de Marzo en la
+      <a href="https://djangogirls.org/quito/">página DjangoGirls Quito</a>
+    </li>
+  </ul>
+</p>
