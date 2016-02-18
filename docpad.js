@@ -7,13 +7,13 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "PythonQuito",
-      description: "La Primera Semana Pythonica de Quito",
-      date: "4-5 y 9-10 de Marzo de 2016",
+      name: "Python Quito",
+      description: "La Primera Semana Pythónica de Quito",
+      date: "4-5 y 9-10 de Marzo 2016",
       // If your event is free, just comment this line
-      price: "$0 (DjangoGirls), $10 (Charlas + camiseta)",
+      price: "$0 (DjangoGirls), $10 (Charlas + Camiseta)",
       venue: "",
-      address: "Edificio Brescia. Piso 9, Av República de El Salvador Avenida República del Salvador N34-107 and Suiza, Quito 170135",
+      address: "Edif. Brescia. Piso 9, Av. República del Salvador N34-107 y Suiza",
       city: "Quito",
       state: "Pichincha, Ecuador"
     },
@@ -21,7 +21,7 @@ module.exports = {
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Regístrese ahora!",
+        text: "Regístrate Ahora!",
         link: ""
     },
 
@@ -51,15 +51,15 @@ module.exports = {
 
     // Labels which you can translate to other languages
     labels: {
-      about: "Acerca",
-      djangogirls: "DjangoGirls",
+      about: "Acerca de",
+      djangogirls: "Django Girls",
       charlas: "Charlas Pythónicas",
-      location: "Localización",
-      speakers: "Hablantes",
-      schedule: "Charlas",
-      sponsors: "Patrocinadores",
-      organizers: "Organización",
-      helpers: "Apoyo",
+      location: "Lugar",
+      speakers: "Conferencistas",
+      schedule: "Conferencias",
+      sponsors: "Auspiciantes",
+      organizers: "Organizadores",
+      helpers: "Colaboradores",
       contact: "Contacto"
     },
 
@@ -186,6 +186,11 @@ module.exports = {
         url: "https://github.com/turicas"
       },
       {
+        name: "Galoget Latorre",
+        logo: "https://4.bp.blogspot.com/-aCFSh2Evi1M/VsWtCqnXsgI/AAAAAAAAFXs/Z9iOhYFJr0E/s1600/Net%2BNeutrality%2BHackem.jpg",
+        url: "http://galogetlatorre.blogspot.com"
+      },
+      {
         name: "Luiza Nunes",
         logo: "https://avatars3.githubusercontent.com/u/1926257?v=3&s=460",
         url: "https://github.com/luhhsnunes"
@@ -197,6 +202,16 @@ module.exports = {
       }
     ],
     helpers: [
+      {
+        name: "Hackem Research Group",
+        logo: "http://4.bp.blogspot.com/-7wsc7MXsZEQ/U8VsPifG5bI/AAAAAAAACvE/MTQbTmPIQzo/s1600/Hackem+Research+Group.png",
+        url: "https://www.facebook.com/hackem.epn"
+      },
+      {
+        name: "Python Ecuador",
+        logo: "https://scontent-atl3-1.xx.fbcdn.net/hphotos-xal1/v/t1.0-9/12366281_1699898106914351_1269534832130236945_n.png?oh=0dddc0cb756347729373bbb17fcda882&oe=57261A99",
+        url: "https://www.facebook.com/python.ecuador"
+      },
       {
         name: "ThoughtWorks",
         logo: "https://www.thoughtworks.com/imgs/tw-logo.png",
