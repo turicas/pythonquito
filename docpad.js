@@ -7,13 +7,13 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Python Quito",
+      name: "PythonQuito",
       description: "La Primera Semana Pythónica de Quito",
-      date: "4-5 y 9-10 de Marzo 2016",
+      date: "4-5 y 8-9 de Marzo 2016",
       // If your event is free, just comment this line
       price: "$0 (DjangoGirls), $10 (Charlas + Camiseta)",
       venue: "",
-      address: "Edif. Brescia. Piso 9, Av. República del Salvador N34-107 y Suiza",
+      address: "A Definir",
       city: "Quito",
       state: "Pichincha, Ecuador"
     },
@@ -199,6 +199,11 @@ module.exports = {
         name: "Tania Silva",
         logo: "https://avatars0.githubusercontent.com/u/1254745?v=3&s=460",
         url: "https://github.com/tdruiva"
+      },
+      {
+        name: "Veronica Rodriguez",
+        logo: "https://pbs.twimg.com/profile_images/667863177821102080/6wYGuxNX.jpg",
+        url: "https://twitter.com/vrokida"
       }
     ],
     helpers: [
@@ -206,11 +211,6 @@ module.exports = {
         name: "Hackem Research Group",
         logo: "http://4.bp.blogspot.com/-7wsc7MXsZEQ/U8VsPifG5bI/AAAAAAAACvE/MTQbTmPIQzo/s1600/Hackem+Research+Group.png",
         url: "https://www.facebook.com/hackem.epn"
-      },
-      {
-        name: "Python Ecuador",
-        logo: "https://scontent-atl3-1.xx.fbcdn.net/hphotos-xal1/v/t1.0-9/12366281_1699898106914351_1269534832130236945_n.png?oh=0dddc0cb756347729373bbb17fcda882&oe=57261A99",
-        url: "https://www.facebook.com/python.ecuador"
       },
       {
         name: "ThoughtWorks",
