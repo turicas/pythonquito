@@ -7,34 +7,31 @@ module.exports = {
 
     // Conference info
     conf: {
-      name: "Conference name",
-      description: "Conference description",
-      date: "November 15",
+      name: "PythonQuito",
+      description: "La Primera Semana Pythónica de Quito",
+      date: "4-5 y 8-9 de Marzo 2016",
       // If your event is free, just comment this line
-      price: "$100",
-      venue: "Coco Bongo",
-      address: "Boulevard Kukulcan, 30",
-      city: "Cancún",
-      state: "Quintana"
+      price: "$0 (DjangoGirls), $10 (Charlas + Camiseta)",
+      venue: "",
+      address: "A Definir",
+      city: "Quito",
+      state: "Pichincha, Ecuador"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
-        text: "Register now!",
-        link: "http://eventick.com.br"
+        text: "Regístrate Ahora!",
+        link: ""
     },
 
-    // "Fork me on GitHub", if you don't want this, just remove the forkButton property
-    forkButton: {
-        repository: "https://github.com/braziljs/conf-boilerplate"
-    },
+    propuestasForm: "https://docs.google.com/forms/d/1LNArwMR0FMjaw0cHsutXpykuGtn5h2H49xJsNGJL7bE/viewform",
 
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://braziljs.github.io/conf-boilerplate/",
-      googleanalytics: "UA-33656081-1"
+      url: "http://turicas.github.io/pythonquito/",
+      googleanalytics: "UA-73316645-1"
     },
 
     // Active sections on the website
@@ -42,23 +39,28 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
+      'djangogirls',
+      'charlas',
       'location',
-      'speakers',
-      'schedule',
-      'sponsors',
-      'partners'
+      //'speakers',
+      //'schedule',
+      //'sponsors',
+      'organizers'
       // 'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
-      about: "About",
-      location: "Location",
-      speakers: "Speakers",
-      schedule: "Schedule",
-      sponsors: "Sponsors",
-      partners: "Partners",
-      contact: "Contact"
+      about: "Acerca de",
+      djangogirls: "Django Girls",
+      charlas: "Charlas Pythónicas",
+      location: "Lugar",
+      speakers: "Conferencistas",
+      schedule: "Conferencias",
+      sponsors: "Auspiciantes",
+      organizers: "Organizadores",
+      helpers: "Colaboradores",
+      contact: "Contacto"
     },
 
     // The entire schedule
@@ -169,19 +171,51 @@ module.exports = {
 
     // List of Sponsors
     sponsors: [
-      {
+      /*{
         name: "Eventick",
         logo: "themes/yellow-swan/img/sponsor.png",
         url: "http://eventick.com.br"
-      }
+      }*/
     ],
 
     // List of Partners
-    partners: [
+    organizers: [
       {
-        name: "BrazilJS",
-        logo: "themes/yellow-swan/img/partner.png",
-        url: "http://braziljs.org"
+        name: "Álvaro Justen",
+        logo: "https://avatars1.githubusercontent.com/u/186126?v=3&s=460",
+        url: "https://github.com/turicas"
+      },
+      {
+        name: "Galoget Latorre",
+        logo: "https://4.bp.blogspot.com/-aCFSh2Evi1M/VsWtCqnXsgI/AAAAAAAAFXs/Z9iOhYFJr0E/s1600/Net%2BNeutrality%2BHackem.jpg",
+        url: "http://galogetlatorre.blogspot.com"
+      },
+      {
+        name: "Luiza Nunes",
+        logo: "https://avatars3.githubusercontent.com/u/1926257?v=3&s=460",
+        url: "https://github.com/luhhsnunes"
+      },
+      {
+        name: "Tania Silva",
+        logo: "https://avatars0.githubusercontent.com/u/1254745?v=3&s=460",
+        url: "https://github.com/tdruiva"
+      },
+      {
+        name: "Veronica Rodriguez",
+        logo: "https://pbs.twimg.com/profile_images/667863177821102080/6wYGuxNX.jpg",
+        url: "https://twitter.com/vrokida"
+      }
+    ],
+    helpers: [
+      {
+        name: "Hackem Research Group",
+        logo: "http://4.bp.blogspot.com/-7wsc7MXsZEQ/U8VsPifG5bI/AAAAAAAACvE/MTQbTmPIQzo/s1600/Hackem+Research+Group.png",
+        url: "https://www.facebook.com/hackem.epn"
+      },
+      {
+        name: "ThoughtWorks",
+        logo: "https://www.thoughtworks.com/imgs/tw-logo.png",
+        url: "https://www.thoughtworks.com/insights/quito"
       }
     ],
 

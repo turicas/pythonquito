@@ -1,13 +1,20 @@
 <h2 class="section-title"><%= @labels['schedule'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+<p>
+Quieres compartir tu experiencia con Python? Envía una propuesta de Charla!
+(El enlace será publicado pronto)
+</p>
+<p>
+Seleccionamos las mejores charlas y pronto se podrá ver la tabla de las charlas escogidas.
+</p>
+
+<!--
 <div class="schedule-tbl">
   <table>
     <thead>
       <tr>
-        <th class="schedule-time">Time</th>
-        <th class="schedule-slot">Slot</th>
-        <th class="schedule-description">Description</th>
+        <th class="schedule-time">Tiempo</th>
+        <th class="schedule-slot">Espacio</th>
+        <th class="schedule-description">Descripción</th>
       </tr>
     </thead>
     <tbody>
@@ -39,3 +46,4 @@ tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
     </tbody>
   </table>
 </div>
+-->

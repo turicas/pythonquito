@@ -9,7 +9,11 @@
   position:relative;
 }
 .content {padding: 50px 0;}
-.content section {padding-top: 50px;}
+.content section {
+  padding-top: 1.5em;
+  padding-left: 2em;
+  margin-top: 0.5em;
+}
 
 /* =============================================================================
    BASIC STYLES
@@ -22,7 +26,7 @@ h2, h3, h4 {
 }
 h3 {font-size: 4em;}
 h4 {font-size:3em;}
-p {
+p, li {
   font-size:1.6em;
   line-height:1.6em;
   margin-bottom: 1.4em;
@@ -52,7 +56,7 @@ nav {
    HEADER
    ========================================================================== */
 .header {
-  padding: 100px 0 100px;
+  padding-top: 100px;
   text-align:center;
 }
 .logo-name {
@@ -68,7 +72,7 @@ nav {
 .call-action-area .price {
   font-size:4em;
   vertical-align: center;
-  margin-right:20px;
+  margin: 0 0 15px;
 }
 .call-action-area .call-action-link, .btn {
   position:relative;
@@ -167,6 +171,7 @@ nav {
 .sponsor-item, .partner-item {
   display: inline-block;
   margin: 0 30px 30px 0;
+  text-align: center;
 }
 .sponsor--link, .partner-link {
   display: block;
@@ -272,7 +277,7 @@ nav {
 @media only screen and (max-width : 480px) {
   /* nav */
   nav {display: none;}
-  .header {padding:20px 0;}
+  .header { padding-top: 3em;}
   .logo-name {font-size: 4em;}
   .tagline {
     margin-bottom:15px;
@@ -280,7 +285,6 @@ nav {
   }
   .call-action-area .price {
     font-size:2em;
-    margin: 0 0 15px;
     display: block;
   }
   .call-action-area .call-action-link, .btn {top:0;}
@@ -292,7 +296,11 @@ nav {
 
   /* content */
   .content {padding: 0;}
-  .content section {padding-top: 50px;}
+  .content section {
+    padding-top: 1.5em;
+    padding-left: 2em;
+    margin-top: 0.5em;
+  }
 
   /* speakers */
   .speakers-item {

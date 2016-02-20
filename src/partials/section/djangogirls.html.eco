@@ -1,0 +1,23 @@
+<h2 class="section-title"><%= @labels['djangogirls'] %></h2>
+
+<p itemprop="description">
+  El Django Girls es un evento que tiene por objetivo la Introducción a
+  la Programación con Python y Django especialmente para chicas! Si ya tienes
+  experiencia con Python y Django, inscríbete como <i>couch</i> para enseñar
+  a otros!
+  <ul>
+    <li>
+      Fechas: 4 y 5 de Marzo 2016 (Viernes: 18h30-20h00, Sábado: 09h00-18h30)
+    </li>
+    <li>
+      Dirección: Ofic. ThoughtWorks, Edif. Brescia. Piso 9, Av. República del Salvador N34-107 y Suiza, Quito, Ecuador <a href="https://www.google.co.uk/maps/place/Av+Rep%C3%BAblica+de+El+Salvador+%26+Suiza,+Quito+170135,+Ecuador/@-0.1857933,-78.4837842,17z/data=!3m1!4b1!4m2!3m1!1s0x91d59a7c341c5edf:0xaa64de09940100ff" target="_blank">(Mapa)</a>.
+    </li>
+    <li>
+      Costo: <b>GRATUITO!</b>
+    </li>
+    <li>
+      Inscripción: Hasta el 1ero de Marzo en la
+      <a href="https://djangogirls.org/quito/">página Django Girls Quito</a>
+    </li>
+  </ul>
+</p>
