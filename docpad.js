@@ -13,16 +13,22 @@ module.exports = {
       // If your event is free, just comment this line
       price: "$0 (DjangoGirls), $10 (Charlas + Camiseta)",
       venue: "",
-      address: "A Definir",
+      address: "Ladrón de Guevera E11-253, Escuela Politécnica Nacional",
+      address2: "Edif. de Administración, Hemiciclo Politécnico (Planta Baja)",
+      googleMapsAddress: "Ladron de Guevera E11-253, Quito 170517",
       city: "Quito",
       state: "Pichincha, Ecuador"
+    },
+
+    contact: {
+      mail: "pythonquito@googlegroups.com"
     },
 
     // The Call To Action button at the header,
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Regístrate Ahora!",
-        link: ""
+        link: "https://www.eventbrite.es/e/pythonquito-tickets-21352557073"
     },
 
     propuestasForm: "https://docs.google.com/forms/d/1LNArwMR0FMjaw0cHsutXpykuGtn5h2H49xJsNGJL7bE/viewform",
@@ -30,7 +36,7 @@ module.exports = {
     // Site info
     site: {
       theme: "yellow-swan",
-      url: "http://turicas.github.io/pythonquito/",
+      url: "http://pythonquito.tk/",
       googleanalytics: "UA-73316645-1"
     },
 
@@ -39,27 +45,20 @@ module.exports = {
     // you can also change order here and it will reflect on page
     sections: [
       'about',
-      'djangogirls',
-      'charlas',
+      'talks',
       'location',
-      //'speakers',
-      //'schedule',
-      //'sponsors',
-      'organizers'
-      // 'contact'
+      'organizers',
+      'partners',
+      'contact'
     ],
 
     // Labels which you can translate to other languages
     labels: {
       about: "Acerca de",
-      djangogirls: "Django Girls",
-      charlas: "Charlas Pythónicas",
+      talks: "DjangoGirls & Charlas Pythónicas",
       location: "Lugar",
-      speakers: "Conferencistas",
-      schedule: "Conferencias",
-      sponsors: "Auspiciantes",
       organizers: "Organizadores",
-      helpers: "Colaboradores",
+      partners: "Auspiciantes y Apoyadores",
       contact: "Contacto"
     },
 
@@ -117,65 +116,7 @@ module.exports = {
           description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
           time: "13h00"
         }
-      },
-      {
-        name: "Steve Jobs",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://github.com/stevie",
-          text: "@stevie"
-        },
-        presentation: {
-          title: "Presenting iPad",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "14h00"
-        }
-      },
-      {
-        name: "Coffee-break",
-        time: "15h00"
-      },
-      {
-        name: "Mark Zuckerberg",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Facebook",
-        link: {
-          href: "http://twitter.com/zuck",
-          text: "@zuck"
-        },
-        presentation: {
-          title: "Revealing Facebook Secrets",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "16h00"
-        }
-      },
-      {
-        name: "Steve Wozniak",
-        photo: "themes/yellow-swan/img/speaker.jpg",
-        bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-        company: "Apple, Inc.",
-        link: {
-          href: "http://twitter.com/woz",
-          text: "@woz"
-        },
-        presentation: {
-          title: "Why do I prefer Android over iPhone",
-          description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo",
-          time: "17h00"
-        }
       }
-    ],
-
-    // List of Sponsors
-    sponsors: [
-      /*{
-        name: "Eventick",
-        logo: "themes/yellow-swan/img/sponsor.png",
-        url: "http://eventick.com.br"
-      }*/
     ],
 
     // List of Partners
@@ -206,27 +147,30 @@ module.exports = {
         url: "https://twitter.com/vrokida"
       }
     ],
-    helpers: [
+    sponsors: [
+      {
+        name: "ThoughtWorks Ecuador",
+        logo: "img/logo-thoughtworks.png",
+        url: "https://www.thoughtworks.com/insights/quito"
+      }
+    ],
+    partners: [
       {
         name: "Hackem Research Group",
         logo: "http://4.bp.blogspot.com/-7wsc7MXsZEQ/U8VsPifG5bI/AAAAAAAACvE/MTQbTmPIQzo/s1600/Hackem+Research+Group.png",
         url: "https://www.facebook.com/hackem.epn"
-      },
-      {
-        name: "ThoughtWorks",
-        logo: "https://www.thoughtworks.com/imgs/tw-logo.png",
-        url: "https://www.thoughtworks.com/insights/quito"
       }
     ],
 
     // Theme path
     getTheme: function() {
-      return "themes/" + this.site.theme;
+      return "";
+      //return "themes/" + this.site.theme;
     },
 
     // Site Path
     getUrl: function() {
-    	return this.site.url;
+      return this.site.url;
     }
   }
 };
