@@ -1,0 +1,309 @@
+body {
+  background-color: #F0F0F0;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding-top: 50px;
+}
+
+h2 {
+  color: #17588B;
+  font-size: 25px;
+}
+
+.main-menu {
+  background-color: #009688;
+}
+.main-menu .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+.main-menu .navbar-toggle {
+    border-color: #17588B;
+}
+.main-menu a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+.main-menu a:hover {
+  opacity: 0.6;
+}
+
+footer {
+  background-color: #009688;
+  height: auto;
+  padding: 20px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  color: white;
+}
+footer a {
+  color: black;
+}
+
+.div-shadow {
+  box-shadow: 0px 2px 1px #A7A7A7;
+  margin-bottom: 40px;
+}
+
+.main-div {
+  background-color: #FFF;
+  height: 400px;
+  padding: 75px;
+}
+
+.mapa-div {
+  background-color: #FFF;
+  height: 250px;
+  /*padding: 20px;*/
+}
+
+.main-div p {
+  font-size: 22px;
+    font-style: italic;
+    margin-top: 30px;
+    padding: 0 140px;
+    text-align: center;
+    color: #17588B;
+}
+
+.title-div {
+  background-color: #17588B;
+  height: 80px;
+  padding: 5px;
+}
+
+.title-div h2 {
+  color: #FFF;
+  font-style: italic;
+  font-size: 25px;
+}
+
+.info-div {
+  background-color: #306A98;
+  height: auto;
+  padding: 30px 0;
+  color: #FFF;
+  font-style: italic;
+}
+
+.info-div h4 {
+  font-size: 25px;
+}
+
+.info-div p {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.info-div p.info {
+  font-size: 15px;
+  color: #8ACFC9;
+}
+
+.info a {
+  color: black;
+}
+
+.date-div {
+  width: 90px;
+  height: 90px;
+  background-color: #009688;
+    position: absolute;
+    top: -27px;
+    margin-left: 40px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.date-div p {
+  text-align: center;
+    line-height: 16px;
+    font-style: italic;
+    color: #FFF;
+    font-size: 23px;
+    margin-top: 28px;
+}
+
+.date-div-shadow {
+  width: 90px;
+  height: 90px;
+  background-color: #003B46;
+    position: absolute;
+    top: -27px;
+    margin-left: 40px;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+  box-shadow: 0px 2px 1px #003B46;
+  opacity: 0.5;
+}
+
+.cta-div {
+  margin-top: 13px;
+    padding: 10px;
+}
+
+.cta-green {
+    background-color: #8ACFC9;
+    font-size: 20px;
+    color: #306A98;
+    padding: 10px 25px;
+    width: auto;
+    margin-right: 20px;
+}
+
+a:hover .org-images {
+  -ms-transform: scale(1.03,1.03); /* IE 9 */
+     -webkit-transform: scale(1.03,1.03); /* Safari */
+    transform: scale(1.03,1.03);
+}
+
+/* IMAGES */
+.logo {
+  background-size: contain;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.django-logo {
+    background-image: url(../img/django-girls.png);
+    height: 42px;
+    width: 150px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.python-icon {
+  background-image: url(../img/python-icon.png);
+  height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+}
+
+.org-images {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+
+@media (max-width: 992px) {
+  .main-div p {
+    padding: 0 40px;
+  }
+  .django-logo,
+  .title-div div {
+    margin-left: 20%;
+  }
+  .title-div.charla h2 {
+    margin-left: 183px;
+      margin-top: -39px;
+  }
+}
+
+@media (max-width: 660px) {
+  .logo {
+    width: 350px;
+  }
+
+  .django-logo,
+  .title-div div {
+    margin-left: 27%;
+  }
+
+  .main-div {
+    height: 350px;
+    padding: 50px;
+  }
+
+  .main-div p {
+    padding: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .django-logo,
+  .title-div div {
+    margin-left: 34%;
+  }
+}
+
+
+@media (max-width: 400px) {
+  .logo {
+    width: 260px;
+  }
+
+  .django-logo,
+  .title-div div {
+    margin-left: 40%;
+  }
+
+  .title-div.charla h2 {
+    margin-left: 183px;
+      margin-top: -51px;
+  }
+}
+
+@media (max-width: 320px) {
+  .logo {
+    width: 200px;
+  }
+
+  .main-div {
+    height: 425px;
+    padding: 50px;
+  }
+
+  .django-logo,
+  .title-div div {
+    margin-left: 45%;
+    -ms-transform: scale(0.8,0.8); /* IE 9 */
+       -webkit-transform: scale(0.8,0.8); /* Safari */
+      transform: scale(0.8,0.8);
+  }
+
+  .title-div.charla h2 {
+    margin-left: 155px;
+      margin-top: -51px;
+      -ms-transform: scale(0.8,0.8); /* IE 9 */
+       -webkit-transform: scale(0.8,0.8); /* Safari */
+      transform: scale(0.8,0.8);
+  }
+
+  .cta-green {
+    font-size: 18px;
+    padding: 10px 10px;
+  }
+  }
+.location-area {
+    background: #e7e7e7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 100%;
+}
+
+
+.starter-template {
+  padding: 40px 15px;
+}
+
+
+#navbar li {
+  font-size: 1.5em;
+}
+
+#navbar-home {
+  font-size: 1em;
+  color: #306a98;
+  padding-top: 7px;
+  padding-bottom: 0;
+}
