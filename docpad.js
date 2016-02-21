@@ -28,10 +28,10 @@ module.exports = {
     // If you don't want this, just remove the callToAction property.
     callToAction: {
         text: "Regístrate Ahora!",
-        link: "https://www.eventbrite.es/e/pythonquito-tickets-21352557073"
+        link: "/inscripcion"
     },
 
-    propuestasForm: "https://docs.google.com/forms/d/1LNArwMR0FMjaw0cHsutXpykuGtn5h2H49xJsNGJL7bE/viewform",
+    propuestasForm: "/propuestas",
 
     // Site info
     site: {
