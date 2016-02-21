@@ -12,7 +12,7 @@
     <meta property="og:url" content="<%= @site.url %>">
     <meta property="og:title" content="<%= @conf.name %>">
     <meta property="og:description" content="<%= @conf.description %>">
-    <meta property="og:image" content="<%= @getUrl() %>/<%= @getTheme() %>/img/pythonquito-badge.jpg">
+    <meta property="og:image" content="<%= @getUrl() %>/img/badge-pythonquito.png">
     <!-- / FACEBOOK -->
 
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
