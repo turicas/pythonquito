@@ -1,31 +1,16 @@
-<div class="partner partner-organization">
-  <h2 class="section-title"><%= @labels['organizers'] %></h2>
-  <ul class="partners-list">
+    <div class="col-md-10 col-md-offset-1">
+      <h2><%= @labels['organizers'] %></h2>
 
-  <% for organizer in @organizers: %>
-    <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-      <a href="<%= organizer.url %>" class="partner-logo partner-link" itemprop="url">
-        <img src="<%= organizer.logo %>" alt="<%= organizer.name %>" class="photo" itemprop="image">
-      </a>
-      <br>
-      <span class="center"><%= organizer.name %></span>
-    </li>
-  <% end %>
-  </ul>
-</div>
+      <div class="row">
+        <% for organizer in @organizers: %>
+        <div class="col-md-4 text-center" itemscope itemtype="http://schema.org/Organization">
+          <a href="<%= organizer.url %>" target="blank" itemprop="url">
+            <img src="<%= organizer.logo %>" alt="<%= organizer.name %>"
+                 class="org-images" itemprop="image">
+            <h4><%= organizer.name %></h4>
+          </a>
+        </div>
+        <% end %>
 
-<div class="partner partner-helper">
-  <h2 class="section-title"><%= @labels['helpers'] %></h2>
-  <ul class="partners-list">
-
-  <% for helper in @helpers: %>
-    <li class="partner-item" itemscope itemtype="http://schema.org/Organization">
-      <a href="<%= helper.url %>" class="partner-logo partner-link" itemprop="url">
-        <img src="<%= helper.logo %>" alt="<%= helper.name %>" class="photo" itemprop="image">
-      </a>
-      <br>
-      <span class="center"><%= helper.name %></span>
-    </li>
-  <% end %>
-  </ul>
-</div>
+     </div>
+    </div>

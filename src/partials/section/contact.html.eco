@@ -1,17 +1,24 @@
-<h2 class="section-title"><%= @labels['contact'] %></h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis ducimus neque amet corrupti ex temporibus similique.</p>
-<form method="post" action="contact.php" id="form" class="form">
-  <div class="control-group control-group-name">
-    <label for="name">Name</label>
-    <input type="text" name="name" id="name" placeholder="Your name">
-  </div>
-  <div class="control-group control-group-email">
-    <label for="email">E-mail</label>
-  <input type="email" name="email" id="email" placeholder="Your e-mail">
-  </div>
-  <div class="control-group">
-    <label for="message">Message</label>
-  <textarea name="" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
-  </div>
-  <input class="btn btn-send" type="submit" value="Send">
-</form>
+    <div class="col-md-10 col-md-offset-1">
+      <h2><%= @labels['contact'] %></h2>
+
+      <form method="post"
+            action="//formspree.io/<%= @contact.mail %>"
+            id="form" class="form">
+        <div class="control-group control-group-name">
+          <label for="name">Nombre</label>
+          <input type="text" class="form-control" name="name" id="name" placeholder="Su nombre">
+        </div>
+        <div class="control-group control-group-email">
+          <label for="email">Correo</label>
+        <input type="email" class="form-control" name="email" id="email" placeholder="Su correo electrónico">
+        </div>
+        <div class="control-group">
+          <label for="message">Mesaje</label>
+          <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Su mesaje"></textarea>
+        </div>
+        <div class="text-center">
+          <br>
+          <input class="btn btn-send" type="submit" value="Enviar">
+        </div>
+      </form>
+    </div>

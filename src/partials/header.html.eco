@@ -9,7 +9,8 @@
   <div class="wrapper">
     <h1 class="logo-name">
       <a class="logo-link" href="#" title="<%= @conf.name %>"
-      itemprop="name"><img src="<%= @getTheme() %>/img/pythonquito.png" alt="<%= @conf.name %> logo"></a>
+      itemprop="name"><img src="<%= @getTheme() %>/img/logo-pythonquito.png"
+                           alt="<%= @conf.name %> logo"></a>
     </h1>
     <h2 class="tagline"><%= @conf.date %>, <%= @conf.city %></h2>
 

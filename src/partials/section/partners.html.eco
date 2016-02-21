@@ -1,0 +1,34 @@
+    <div class="col-md-5 col-md-offset-1" id="inner-sponsors">
+      <h2>Auspiciantes</h2>
+
+      <div class="row">
+      <% for sponsor in @sponsors: %>
+      <div class="col-md-6 text-center"
+           itemscope itemtype="http://schema.org/Organization">
+        <a href="<%= sponsor.url %>" target="blank" itemprop="url">
+          <img src="<%= sponsor.logo %>" alt="<%= sponsor.name %>"
+               class="org-images" itemprop="image">
+          <h4><%= sponsor.name %></h4>
+        </a>
+      </div>
+      <% end %>
+
+      </div>
+    </div>
+
+    <div class="col-md-5" id="inner-partners">
+      <h2>Apoyadores</h2>
+
+      <div class="row">
+        <% for partner in @partners: %>
+        <div class="col-md-6 text-center" itemscope itemtype="http://schema.org/Organization">
+          <a href="<%= partner.url %>" target="blank" itemprop="url">
+            <img src="<%= partner.logo %>" alt="<%= partner.name %>"
+                 class="org-images" itemprop="image">
+            <h4><%= partner.name %></h4>
+          </a>
+        </div>
+        <% end %>
+
+      </div>
+    </div>

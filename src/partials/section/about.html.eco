@@ -1,15 +1,12 @@
-<h2 class="section-title"><%= @labels['about'] %></h2>
-
-<p>
-Nosotros queremos unir la comunidad Python local y enseñas nuevas personas a
-iniciar en la arte de programar!
-</p>
-<p>
-El evento está dividido en dos partes: un con foco en enseñar programación a
-mujeres (el DjangoGirls) y otro a el público en general (las charlas).
-</p>
-<p>
-Síguenos en nuestras redes sociales:
-<a href="https://www.facebook.com/python.ecuador"><img src="/themes/yellow-swan/img/facebook.png"/>Facebook</a>
-<a href="https://twitter.com/PythonEc"><img src="themes/yellow-swan/img/twitter.png"/>Twitter</a>
-</p>
+      <div class="row" id="main">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="main-div div-shadow">
+            <img src="<%= @getTheme() %>/img/logo-pythonquito.png" class="logo">
+            <p>
+              Buscamos unir la comunidad Python local y guiar a todos aquellos
+              nuevos en el campo a dar sus primeros pasos en el arte de la
+              programación.
+            </p>
+          </div>
+        </div>
+      </div>
