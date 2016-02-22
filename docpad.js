@@ -11,11 +11,11 @@ module.exports = {
       description: "La Primera Semana Pythónica de Quito",
       date: "4-5 y 8-9 de Marzo 2016",
       // If your event is free, just comment this line
-      price: "$0 (DjangoGirls), $10 (Charlas + Camiseta)",
+      price: "$0 (Django Girls), $10 (Charlas + Camiseta)",
       venue: "",
       address: "Ladrón de Guevera E11-253, Escuela Politécnica Nacional",
       address2: "Edif. de Administración, Hemiciclo Politécnico (Planta Baja)",
-      googleMapsAddress: "Ladron de Guevera E11-253, Quito 170517",
+      googleMapsAddress: "Edificio de Administración EPN",
       city: "Quito",
       state: "Pichincha, Ecuador"
     },
@@ -55,10 +55,10 @@ module.exports = {
     // Labels which you can translate to other languages
     labels: {
       about: "Acerca de",
-      talks: "DjangoGirls & Charlas Pythónicas",
+      talks: "Django Girls & Charlas Pythónicas",
       location: "Lugar",
       organizers: "Organizadores",
-      partners: "Auspiciantes y Apoyadores",
+      partners: "Auspiciantes y Colaboradores",
       contact: "Contacto"
     },
 
@@ -142,7 +142,7 @@ module.exports = {
         url: "https://github.com/tdruiva"
       },
       {
-        name: "Veronica Rodriguez",
+        name: "Verónica Rodríguez",
         logo: "https://pbs.twimg.com/profile_images/667863177821102080/6wYGuxNX.jpg",
         url: "https://twitter.com/vrokida"
       }
@@ -157,7 +157,7 @@ module.exports = {
     partners: [
       {
         name: "Hackem Research Group",
-        logo: "http://4.bp.blogspot.com/-7wsc7MXsZEQ/U8VsPifG5bI/AAAAAAAACvE/MTQbTmPIQzo/s1600/Hackem+Research+Group.png",
+        logo: "img/logo-hackem.png",
         url: "https://www.facebook.com/hackem.epn"
       }
     ],
