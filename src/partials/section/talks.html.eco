@@ -28,7 +28,15 @@
                 <b>¡Django Girls es Gratuito!</b>
               </p>
               <div class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2 cta-div">
-                <a href="https://djangogirls.org/quito/" target="blank" class="cta-green">Regístrate aquí</a>
+                <p>
+                  <a href="https://djangogirls.org/quito/" target="blank"
+                     class="cta-green">Regístrate aquí</a>
+                </p>
+                <p class="info">
+                  Se recomienda que también se registra en Charlas Pythónicas
+                  para aprender más sobre la lenguaje Python y recibir una
+                  camiseta preciosa!
+                </p>
               </div>
             </div>
           </div>
@@ -77,20 +85,28 @@
                   <a href="/#contact">póngase en contacto con nosotros</a>.
                 </p>
               </div>
+
+              <h4 class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
+                ¡Comparte tu conocimiento y experiencias!
+              </h4>
               <p class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-                <br/>
                 Si quieres presentar una charla en el evento, ¡envía tu
                 propuesta ahora!
                 <br/>
                 El formulario estará disponible hasta
-                el 28 de Febrero.
-              </p>
-              <p class="info col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-                (Las charlas seleccionadas se publicarán el 2 de Marzo).
+                el <b>28 de Febrero</b> y las charlas seleccionadas se
+                publicarán el 2 de Marzo.
               </p>
               <div class="col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-2 cta-div">
-                <a href="<%= @propuestasForm %>" target="blank"
-                   class="cta-green">Regístrate como presentador</a>
+                <p>
+                  <a href="<%= @propuestasForm %>" target="blank"
+                     class="cta-green">Regístrate como presentador</a>
+                </p>
+                <p class="info">
+                  Los presentadores también tienen que registrarse como
+                  asistentes y pagar el costo del billete (todo el valor será
+                  invertido en la camiseta y coffee-break).
+                </p>
               </div>
             </div>
           </div>
