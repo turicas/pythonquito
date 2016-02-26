@@ -1,48 +1,3 @@
-      <div class="row" id="django-girls">
-        <div class="col-md-10 col-md-offset-1">
-          <div class="date-div-shadow "></div>
-          <div class="title-div">
-            <h2 class="django-logo col-md-3 col-md-offset-2"></h2>
-          </div>
-          <div class="date-div">
-            <p>4-5<br/>marzo</p>
-          </div>
-          <div class="info-div div-shadow">
-            <div class="row">
-              <h4 class="col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-2">
-                ¡Enamórate de la programación!
-              </h4>
-              <p class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-                Introducción a la programación para chicas, con Python y Django.
-                <br/>
-                Si ya tienes experiencia con Python y Django, ¡inscríbete como
-                un entrenador!
-              </p>
-              <p class="info col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-                - Viernes 4 de marzo, desde las 18h30 hasta las 20h00.
-                <br/>
-                - Sábado 5 de marzo, desde las 09h00 hasta las 18h30.
-                <br/>
-                Inscripciones hasta el 1 de marzo.
-                <br/>
-                <b>¡Django Girls es Gratuito!</b>
-              </p>
-              <div class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2 cta-div">
-                <p>
-                  <a href="https://djangogirls.org/quito/" target="blank"
-                     class="cta-green">Regístrate aquí</a>
-                </p>
-                <p class="info">
-                  Se recomienda que también se registra en Charlas Pythónicas
-                  para aprender más sobre la lenguaje Python y recibir una
-                  camiseta preciosa!
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div class="row" id="charlas">
         <div class="col-md-10 col-md-offset-1">
           <div class="date-div-shadow "></div>
@@ -63,20 +18,24 @@
                 muy pronto.
               </p>
               <p class="info col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
-                - Martes 8 de marzo, desde las 18h30 hasta las 22h00.
-                <br/>
-                - Miércoles 9 de marzo, desde las 18h30 hasta las 22h00.
-                <br/>
-                Inscripciones hasta el 1 de marzo.
-                <br/>
-                El evento tiene un costo de $10 (por la camiseta)
-                <br/>
-                * Si no puedes cancelar el costo, <a href="#contact">contáctate con nosotros</a>.
+                <b>¡El evento es Gratuito!</b>
+                <br>
+                - Desde las 18h30 hasta las 22h00.
+                <br>
+                - Compre de la camiseta hasta el 1 de marzo.
               </p>
+
+              <div class="col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-2 cta-div">
+                <p>
+                  <a href="<%= @inscripcionesForm %>" class="cta-green"
+                     target="_blank">Regístrate como asistente
+                  </a>
+                </p>
+              </div>
               <div class="col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-2 cta-div">
                 <p>
                   <a href="<%= @callToAction.link %>" class="cta-green"
-                     target="_blank">Regístrate como asistente</a>
+                     target="_blank">Compre la Camiseta</a>
                 </p>
                 <p class="info">
                   El pago por EventBrite (butón arriba) requiere una cuenta en
@@ -103,9 +62,7 @@
                      class="cta-green">Regístrate como presentador</a>
                 </p>
                 <p class="info">
-                  Los presentadores también tienen que registrarse como
-                  asistentes y pagar el costo del billete (todo el valor será
-                  invertido en la camiseta y coffee-break).
+                  También quieres la camiseta? Necesitas efectuar el pago ;)
                 </p>
               </div>
             </div>
@@ -113,4 +70,47 @@
         </div>
       </div>
 
+      <div class="row" id="django-girls">
+        <div class="col-md-10 col-md-offset-1">
+          <div class="date-div-shadow "></div>
+          <div class="title-div">
+            <h2 class="django-logo col-md-3 col-md-offset-2"></h2>
+          </div>
+          <div class="date-div">
+            <p>4-5<br/>marzo</p>
+          </div>
+          <div class="info-div div-shadow">
+            <div class="row">
+              <h4 class="col-xs-10 col-xs-offset-1 col-md-9 col-md-offset-2">
+                ¡Enamórate de la programación!
+              </h4>
+              <p class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
+                Introducción a la programación para chicas, con Python y Django.
+                <br/>
+                Si ya tienes experiencia con Python y Django, ¡inscríbete como
+                un entrenador!
+              </p>
+              <p class="info col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2">
+                - Viernes 4 de marzo, desde las 18h30 hasta las 20h00.
+                <br/>
+                - Sábado 5 de marzo, desde las 09h00 hasta las 18h30.
+                <br/>
+                <strike>Inscripciones hasta el 1 de marzo</strike> - cupos finalizados
+                <br/>
+                <b>¡Django Girls es Gratuito!</b>
+              </p>
+              <div class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2 cta-div">
+                <p>
+                  <span class="cta-green">Regístrate aquí</span>
+                </p>
+                <p class="info">
+                  Se recomienda que también se registra en Charlas Pythónicas
+                  para aprender más sobre la lenguaje Python y recibir una
+                  camiseta preciosa!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- TODO: insert 'speakers.html.eco' here -->
