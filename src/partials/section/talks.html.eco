@@ -23,14 +23,13 @@
                 <br/>
                 - Sábado 5 de marzo, desde las 09h00 hasta las 18h30.
                 <br/>
-                Inscripciones hasta el 1 de marzo.
+                <strike>Inscripciones hasta el 1 de marzo</strike> - cupos finalizados
                 <br/>
                 <b>¡Django Girls es Gratuito!</b>
               </p>
               <div class="col-xs-10 col-xs-offset-1 col-md-7 col-md-offset-2 cta-div">
                 <p>
-                  <a href="https://djangogirls.org/quito/" target="blank"
-                     class="cta-green">Regístrate aquí</a>
+                  <span class="cta-green">Regístrate aquí</span>
                 </p>
                 <p class="info">
                   Se recomienda que también se registra en Charlas Pythónicas
