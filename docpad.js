@@ -33,6 +33,8 @@ module.exports = {
 
     propuestasForm: "/propuestas",
 
+    inscripcionesForm: "http://goo.gl/forms/WX5QOfe1kd",
+
     // Site info
     site: {
       theme: "yellow-swan",
