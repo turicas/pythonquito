@@ -151,6 +151,11 @@ module.exports = {
     ],
     sponsors: [
       {
+        name: "Ayni Consulting Cia. Ltda.",
+        logo: "img/ayni_logo121.png",
+        url: "http://www.ayni.com.ec/"
+      },
+      {
         name: "ThoughtWorks Ecuador",
         logo: "img/logo-thoughtworks.png",
         url: "https://www.thoughtworks.com/insights/quito"
