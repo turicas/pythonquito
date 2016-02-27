@@ -1,6 +1,10 @@
 language: node_js
 node_js:
-  - 0.8
   - 0.10
-before_script:
-  - npm run-script generate
+
+script: bash ./deploy.sh
+
+env:
+  global:
+  - GH_REF: github.com/turicas/pythonquito.git
+  - secure: "SJxG2teTSm11WPuc2FCZDgWg5cjWVeFWDzfHZObbJdurnQcLEt6Tr7+v4nfZesYIyDguOP51MH4inOhbu8Dwsbbjr6XcBgq8eY62OAL5WLHWSR5pvnTFVU7hcOyGo4anhJcvBMJzBlGMFSIXCPBbTMK0R663eDw+C+PLoJxLFzuhZT5e266MEICeHrll3vPkrNJZU7UtlWtNh7w/XLPSgX24Dsv7gEsU3JJJAc5U89SQK1oveLpk5O51zLdCEU7pDzoqF+Tj7ZKEYCO9575mJCF1H23SvygERrP9x9odrSJy8Nk4vAotIf2pzyT2qZmGwwF25EDW2BGSoLAp172H1II6++xn16b5jj+thfIjcT7bQz2hBMc1raEn/1nSimmsU7C8kSwMf+OrfICO93bxT+3MhhIRGv5IPULdxi6YX3QW0czFLCVX90RTCUvU9oUEfBdS4iDbU7V/2GEDD+d1oA8u0MXUCwTy4iYgP0ztQtf1Pxx1SJBT9DI7IY6tDd0iwZZzJaRc6jqAoOsVGIUPEMb1aXAkL2H0ACXcYYI/ab9P2vL6pyJ+s5RsWiD4IfYVJfWPK0/gpW/2jF485dD5c9N9RwB2pR5Wgr0JZcN1GhFSKpjNImZP9sWdNZ8L9cmQjncgCllIxRlT0LGqsWfr1Z5voigu4Lzqsk9irEJqLuo="
