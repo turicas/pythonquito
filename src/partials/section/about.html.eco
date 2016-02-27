@@ -3,12 +3,12 @@
           <div class="main-div div-shadow">
             <img src="<%= @getTheme() %>/img/logo-pythonquito.png" class="logo">
             <p>
-              Buscamos unir la comunidad Python local y guiar a todos aquellos
-              nuevos en el campo a dar sus primeros pasos en el arte de la
+              Buscamos unir la Comunidad de Python local y guiar a todos aquellos
+              nuevos en el campo, a dar sus primeros pasos en el arte de la
               programación.
             </p>
             <p style="font-size: 28px; font-style: normal; margin-top: 40px;">
-              <strong>Evento gratuito</strong>
+              <strong>Evento Gratuito</strong>
             </p>
           </div>
         </div>

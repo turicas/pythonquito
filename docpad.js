@@ -13,8 +13,8 @@ module.exports = {
       // If your event is free, just comment this line
       price: "$0 (Django Girls), $10 (Charlas + Camiseta)",
       venue: "",
-      address: "Ladrón de Guevera E11-253, Escuela Politécnica Nacional",
-      address2: "Edif. de Administración, Hemiciclo Politécnico (Planta Baja)",
+      address: "Ladrón de Guevara E11-253, Escuela Politécnica Nacional",
+      address2: "Edif. de Administración, Hemiciclo Politécnico (Planta Baja),",
       googleMapsAddress: "Edificio de Administración EPN",
       city: "Quito",
       state: "Pichincha, Ecuador"
@@ -152,8 +152,8 @@ module.exports = {
     sponsors: [
       {
         name: "Ayni Consulting Cia. Ltda.",
-        logo: "img/ayni_logo121.png",
-        url: "http://www.ayni.com.ec/"
+        logo: "img/logo-ayni.png",
+        url: "http://www.ayni.com.ec"
       },
       {
         name: "ThoughtWorks Ecuador",
