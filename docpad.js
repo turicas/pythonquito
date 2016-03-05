@@ -151,14 +151,19 @@ module.exports = {
     ],
     sponsors: [
       {
+        name: "ThoughtWorks Ecuador",
+        logo: "img/logo-thoughtworks.png",
+        url: "https://www.thoughtworks.com/insights/quito"
+      },
+      {
         name: "Ayni Consulting Cia. Ltda.",
         logo: "img/logo-ayni.png",
         url: "http://www.ayni.com.ec"
       },
       {
-        name: "ThoughtWorks Ecuador",
-        logo: "img/logo-thoughtworks.png",
-        url: "https://www.thoughtworks.com/insights/quito"
+        name: "Microsoft Ecuador",
+        logo: "img/logo-microsoft.png",
+        url: "https://twitter.com/MicrosoftEc"
       }
     ],
     partners: [
