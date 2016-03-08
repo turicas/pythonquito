@@ -73,7 +73,7 @@ module.exports = {
 				name: "─",
 				bio: "─",
 				presentation: {
-					title: "Acreditación",
+					title: "Regístro y Acreditación",
 					description: "─",
 					time: "18:00"
 				}
@@ -122,7 +122,7 @@ module.exports = {
 				//},
 				presentation: {
 					title: "Capturando datos: la manera Pythónica",
-					description: "Web scraping: la mejor manera de hacer con Python.",
+					description: "Web scraping y parsing: la mejor manera de hacerlo con Python. Uso de librerías para peticiones HTTP, parsing de HTML y automación de browsers con las librerías requests, tapioca-wrapper, splinter y rows.",
 					time: "19:30"
 				}
 			},
@@ -160,7 +160,7 @@ module.exports = {
 				}
 			},
 			{
-				name: "7 presenteadores",
+				name: "5 presenteadores",
 				presentation: {
 					title: "Charlas relámpagos (5 min)",
 					description: "─",
@@ -173,7 +173,7 @@ module.exports = {
 				presentation: {
 					title: "Finalización",
 					description: "─",
-					time: "21:10"
+					time: "21:35"
 				}
 			}
 			],
@@ -182,7 +182,7 @@ module.exports = {
 				name: "─",
 				bio: "─",
 				presentation: {
-					title: "Acreditación",
+					title: "Regístro y Acreditación",
 					description: "─",
 					time: "18:00"
 				}
@@ -239,14 +239,23 @@ module.exports = {
 				name: "─",
 				bio: "─",
 				presentation: {
-					title: "Coffee break \\o/",
+					title: "Foto oficial :D",
 					description: "─",
 					time: "20:00"
 				}
 			},
 			{
-				name: "Willington Rentería",
-				company: "",
+				name: "─",
+				bio: "─",
+				presentation: {
+					title: "Coffee break \\o/",
+					description: "─",
+					time: "20:05"
+				}
+			},
+			{
+				name: "Quiliro Ordóñez",
+				company: "Fundación de Software Libre América Latina",
 				bio: "",
 				//photo: "themes/yellow-swan/img/speaker.jpg",
 				//link: {
@@ -254,8 +263,8 @@ module.exports = {
 				//  text: "@billy95"
 				//},
 				presentation: {
-					title: "Desarrollo de una base de datos precomputados de Tsunamis",
-					description: "Con el uso de python se sistematizó la provisión de inputs files yejecución del modelo de tsunamis, COMCOT. Esto permitió tener una base de datos de 16740 escenarios para la costa de Ecuador y Galápagos. Esto permitirá reducir la evaluación de un tsunami local a menos de 1 minuto, para alertar a la población costera. Para esto se utilizó un cluster de alto rendimiento localizado en el Insituto Oceanográfico de la Armada.",
+					title: "¿Por qué es importante la libertad en el software?",
+					description: "La charla resalta la importancia de usar software libre y cómo cualquier pieza de código no-libre puede afectar el balance de poder entre nosotros y los más inteligentes e influyentes.",
 					time: "20:30"
 				}
 			},
@@ -269,7 +278,7 @@ module.exports = {
 				}
 			},
 			{
-				name: "7 presenteadores",
+				name: "6 presenteadores",
 				presentation: {
 					title: "Charlas relámpagos (5 min)",
 					description: "─",
@@ -282,7 +291,7 @@ module.exports = {
 				presentation: {
 					title: "Finalización",
 					description: "─",
-					time: "21:10"
+					time: "21:40"
 				}
 			}
 			]
